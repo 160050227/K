@@ -8,7 +8,7 @@
         name: Build and Push to GCP
         runs-on: ubuntu-latest
         env:
-          IMAGE_NAME: K
+          IMAGE_NAME: k
           PROJECT_ID: chrome-empire-393816
         steps:
         - name: Checkout
